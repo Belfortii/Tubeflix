@@ -1,0 +1,62 @@
+body {
+    color: white;
+    width: 100%;
+    height: 10rem;
+    background-image: linear-gradient(to bottom, rgb(255, 0, 0) 0, rgb(0, 0, 0) 65%, rgb(0, 0, 0) 35%);
+    font-family: "New Amsterdam", sans-serif; 
+}
+
+
+
+header {
+    border-bottom: solid 0.5px aqua;
+    padding: 20px;
+    font-size: 60px;
+    color:aqua
+ }
+ 
+
+.chamada {
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.categoria h2 {
+    color: aqua
+}
